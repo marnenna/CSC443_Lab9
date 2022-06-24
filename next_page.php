@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
             /*session_start();
             echo "<html>";
 
@@ -33,8 +33,6 @@
 
             echo "</html>\n";*/
     
-
-    <?php
         session_start();
 
         $_SESSION = array();
