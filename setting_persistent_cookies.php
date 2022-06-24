@@ -19,14 +19,14 @@
 
         if(isset($_COOKIE["myLoginName"])){
             $loginName = $_COOKIE["myLoginName"];
-            print("Received a cookie named as myLoginName:".$loginName."\n");
+            print("Received a cookie named as myLoginName:".$loginName."\n <br>");
         }
         else{
-            print("Did not received any cookie named as myLoginName.\n");
+            print("Did not received any cookie named as myLoginName.\n <br>");
         }
 
         $count = count($_COOKIE);
-        print("$count cookies received.\n");
+        print("$count cookies received.\n <br>");
         foreach ($_COOKIE as $naem => $value){
             print "$naem = $value\n";
         }
