@@ -12,7 +12,7 @@
             echo "<html>";
 
             $myLogin = $_SESSION["myLogin"];
-            echo "Value of myLogin has been retrieved: " .$myLogin."\n </br>";
+            echo "Value of MyLogin has been retrieved: " .$myLogin."\n </br>";
 
             $myColor = $_SESSION["myColor"];
             echo "Value of MyColor has been retrieved: ".$myColor."\n";
