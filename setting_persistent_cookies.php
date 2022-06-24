@@ -14,8 +14,8 @@
         setcookie("CouponValue","100.00",time()+60*60*24*7);
 
         print("\n");
-        print("2 temporary cookies were delivered.\n");
-        print("2 consistent cookies were delivered.\n");
+        print("2 temporary cookies were delivered.\n <br>");
+        print("2 consistent cookies were delivered.\n <br>");
 
         if(isser($_COOKIE["myLoginName"])){
             $loginName = $_COOKIE["myLoginName"];
