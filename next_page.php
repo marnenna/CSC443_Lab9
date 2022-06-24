@@ -14,10 +14,10 @@
             $sid = session_id();
             echo "Session ID returned by session_id(): ".$sid."\n </br>";
             $sid = SID;
-            echo "Session ID returned by SID: ".$sid."\n";
+            echo "Session ID returned by SID: ".$sid."\n </br>";
 
             $myLogin = $_SESSION["myLogin"];
-            echo "Value of MyLogin has been retrieved: " .$myLogin."\n </br>";
+            echo "Value of MyLogin has been retrieved: ".$myLogin."\n </br>";
 
             $myColor = $_SESSION["myColor"];
             echo "Value of MyColor has been retrieved: ".$myColor."\n";
