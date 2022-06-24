@@ -8,10 +8,10 @@
 </head>
 <body>
     <?php
-        setcookie("myLoginName","myWebsite");
-        setcookie("myPreferredColor","Blue");
-        setcookie("CouponNumber","07470433",time() +60*60*24*7);
-        setcookie("CouponValue","100.00",time()+60*60*24*7);
+        setcookie("myLoginName","myWebsite <br>");
+        setcookie("myPreferredColor","Blue <br>");
+        setcookie("CouponNumber","07470433",time() +60*60*24*7 "<br>");
+        setcookie("CouponValue","100.00",time()+60*60*24*7 "<br>");
 
         print("\n");
         print("2 temporary cookies were delivered.\n <br>");
