@@ -14,7 +14,7 @@
             $queryString = $_SERVER["QUERY_STRING"];
             echo "Querey string of the incoming URL: ".$queryString."\n";
 
-            echo "Cookies received:\n";
+            echo "Cookies received:\n </br>";
             foreach ($_COOKIE as $name => $value){
                 echo "$name = $value \n";
             }
