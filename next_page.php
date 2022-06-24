@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-            /*session_start();
+            session_start();
             echo "<html>";
 
             $queryString = $_SERVER["QUERY_STRING"];
@@ -25,28 +25,15 @@
             $sid = SID;
             echo "Session ID returned by SID: ".$sid."\n </br>";*/
 
-            /*$myLogin = $_SESSION["myLogin"];
+            $myLogin = $_SESSION["myLogin"];
             echo "Value of MyLogin has been retrieved: ".$myLogin."\n </br>";
 
             $myColor = $_SESSION["myColor"];
             echo "Value of MyColor has been retrieved: ".$myColor."\n";
 
-            echo "</html>\n";*/
+            echo "</html>\n";
     
-        session_start();
-
-        $_SESSION = array();
-
-        if(isset($_COOKIE[session_name()])){
-            setcookie(session_name(), '', time()-42000, '/');
-        }
-
-        session_destroy();
-
-        echo "<html>";
-        echo "Thank you for visiting MyWebsite.com.<br>";
-        echo "<a href=login.php>Login Again.</a><br>";
-        echo "</html><br>";
+        
     ?>
 
 </body>
