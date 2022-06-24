@@ -10,7 +10,7 @@
     <?php
        setcookie ("CouponNumber", "", time() -1);
        setcookie ("CouponValue", "", time() -1);
-       print ("(<pre>\n");
+       print ("<pre>\n");
        print ("2 cookies were delivered with past times. \n");
 
        $count = count($_COOKIE);
