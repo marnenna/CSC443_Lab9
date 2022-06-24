@@ -14,9 +14,9 @@
             $queryString = $_SERVER["QUERY_STRING"];
             echo "Querey string of the incoming URL: ".$queryString."\n";
 
-            echo "Cookies received:\n </br>";
+            echo "Cookies received:\n";
             foreach ($_COOKIE as $name => $value){
-                echo "$name = $value \n";
+                echo "$name = $value \n </br>";
             }
 
             /*$sid = session_id();
