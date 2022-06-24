@@ -17,7 +17,7 @@
         print("2 temporary cookies were delivered.\n <br>");
         print("2 consistent cookies were delivered.\n <br>");
 
-        if(isser($_COOKIE["myLoginName"])){
+        if(isset($_COOKIE["myLoginName"])){
             $loginName = $_COOKIE["myLoginName"];
             print("Received a cookie named as myLoginName:".$loginName."\n");
         }
