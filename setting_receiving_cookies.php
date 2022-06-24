@@ -26,7 +26,7 @@
         echo "$count cookies received.<br>";
 
         foreach($_COOKIE as $name => $value){
-            echo "      $name = $value <br>";
+            echo "$name = $value <br>";
         }
 
         echo "<br>";
