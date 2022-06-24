@@ -28,7 +28,7 @@
         $count = count($_COOKIE);
         print("$count cookies received.\n <br>");
         foreach ($_COOKIE as $naem => $value){
-            print "$naem = $value\n";
+            print "$naem = $value\n <br>";
         }
         print("\n");
     ?> 
