@@ -8,8 +8,8 @@
 </head>
 <body>
     <?php
-        setcookie("myLoginName","myWebsite <br>");
-        setcookie("myPreferredColor","Blue <br>");
+        setcookie("myLoginName","myWebsite", "<br>");
+        setcookie("myPreferredColor","Blue" , "<br>");
         setcookie("CouponNumber","07470433",time() +60*60*24*7, "<br>");
         setcookie("CouponValue","100.00",time()+60*60*24*7, "<br>");
 
