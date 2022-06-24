@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-            session_start();
+    
+            /*session_start();
             echo "<html>";
 
             $queryString = $_SERVER["QUERY_STRING"];
@@ -25,14 +25,14 @@
             $sid = SID;
             echo "Session ID returned by SID: ".$sid."\n </br>";*/
 
-            $myLogin = $_SESSION["myLogin"];
+            /*$myLogin = $_SESSION["myLogin"];
             echo "Value of MyLogin has been retrieved: ".$myLogin."\n </br>";
 
             $myColor = $_SESSION["myColor"];
             echo "Value of MyColor has been retrieved: ".$myColor."\n";
 
-            echo "</html>\n";
-    ?>
+            echo "</html>\n";*/
+    
 
     <?php
         session_start();
